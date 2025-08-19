@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BtazorTestLogin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a5994f3f97a339107646669131f15b1a502ac073")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d01afcf65d555dfd8d5a36e392a6a7c34d08e5cb")]
 [assembly: System.Reflection.AssemblyProductAttribute("BtazorTestLogin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BtazorTestLogin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
