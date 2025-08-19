@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj": {}
+    "C:\\Users\\admin\\Desktop\\cloneforrelease\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj": {}
   },
   "projects": {
-    "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj": {
+    "C:\\Users\\admin\\Desktop\\cloneforrelease\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\cloneforrelease\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj",
         "projectName": "BtazorTestLogin",
-        "projectPath": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj",
+        "projectPath": "C:\\Users\\admin\\Desktop\\cloneforrelease\\BtazorTestLogin\\BtazorTestLogin\\BtazorTestLogin.csproj",
         "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\obj\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\cloneforrelease\\BtazorTestLogin\\BtazorTestLogin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 24.2\\Components\\Offline Packages",
