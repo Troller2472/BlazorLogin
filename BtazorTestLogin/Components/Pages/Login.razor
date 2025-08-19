@@ -1,0 +1,59 @@
+﻿@page "/login"
+
+@using BtazorTestLogin.Models.ViewModels
+@using System.Security.Claims
+@using Microsoft.AspNetCore.Authentication
+@using Microsoft.AspNetCore.Authentication.Cookies
+@inject NavigationManager Navigation
+
+
+<EditForm Model="Model" OnValidSubmit="Authenticate" FormName="LoginForm">
+    <DataAnnotationsValidator/>
+    <ValidationSummary></ValidationSummary>
+
+    <div class="form-group">
+        <label for="username" class="form-label">Tên Tài Khoản</label>
+        <InputText id="username" class="form-control" @bind-Value="Model.USER_NAME" />
+        <ValidationMessage For="@(() => Model.USER_NAME)" />
+    </div>
+    <div class="form-group">
+        <label for="username" class="form-label">Mật Khẩu</label>
+        <InputText id="username" class="form-control" @bind-Value="Model.PASS_WORD" />
+        <ValidationMessage For="@(() => Model.USER_NAME)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Đăng Nhập</button>
+
+</EditForm>
+
+
+@code {
+    [CascadingParameter]
+    public HttpContext httpContext { get; set; }
+
+    [SupplyParameterFromForm]
+    public VMLogin Model { get; set; } = new VMLogin();
+
+    private string? errorMessage;
+
+    private async Task Authenticate()
+    {
+        var useraccount = "admin";    
+        var password = "admin";
+
+        if (useraccount is null || password != Model.PASS_WORD)
+        {
+            errorMessage = "Tài khoản hoặc mật khẩu không đúng";
+            return;
+        }
+        var claims = new List<Claim>
+        {
+            new Claim(ClaimTypes.Name, Model.USER_NAME),
+            new Claim(ClaimTypes.Role, "Admin")
+        };  
+        var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+        var principal = new ClaimsPrincipal(identity);
+        await httpContext.SignInAsync(principal);
+        Navigation.NavigateTo("/");
+    }
+}

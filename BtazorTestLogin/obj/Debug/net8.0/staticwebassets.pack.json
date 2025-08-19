@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BtazorTestLogin.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BtazorTestLogin.1k48mdytsc.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Temp\\BtazorTestLogin\\BtazorTestLogin\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BtazorTestLogin.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BtazorTestLogin.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BtazorTestLogin.props",
+      "PackagePath": "build\\BtazorTestLogin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BtazorTestLogin.props",
+      "PackagePath": "buildMultiTargeting\\BtazorTestLogin.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BtazorTestLogin.props",
+      "PackagePath": "buildTransitive\\BtazorTestLogin.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
